@@ -40,7 +40,7 @@ function createListElement() {
 	function deleteListItem(){
 		li.classList.add("delete")
 	}
-	//END ADD CLASS DELETE
+	//END ADD CLASS DELETEsa
 }
 
 
