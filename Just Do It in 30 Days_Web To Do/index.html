@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="container">
+
+       <!-- untuk banner judul besar -->
+      <div class="row">
+         <div class="intro col-12">
+            <h1>To Do List</h1>
+         </div>
+      </div>
+
+      <!-- Teks Tambahan Dibawah judul -->
+      <div class="row">
+         <div class="helText col-12">
+            <p id="first">Masukan to do list kamu ke form dibawah </p>
+            <p id="second">tekan ENTER untuk menyimpan</p>
+            <p id="third">tekan X yang berada di kanan untuk menghapus</p>
+         </div>
+      </div>
+      
+      <!-- Form untuk memasukan teks to do list -->
+      <div class="row">
+         <div class="col-12">
+            <input type="text" id="userInput" placeholder="Ketikan kegiatanmu ..." maxlength="30">
+            <button id="enter"><i class="fas fa-pencil-alt"></i></button>
+         </div>
+      </div>
+
+      <!-- row kosong untuk tempat to do list disimpan -->
+      <div class="row">
+         <div class="listItems col-12">
+            <ul class="col-12 offset-0 col-sm-8 offset-sm-2"></ul>
+         </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
